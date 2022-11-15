@@ -251,6 +251,12 @@ main section img {
     box-sizing: border-box;
 }
 
+/* contact page */
+
+.contact-grid {
+    padding: 100px;
+}
+
 /* faq page */
 
 .faq-title {
