@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Roboto+Slab&display=swap');
 
-
+/* home */
 #content {
-    max-width: 1600px;
+    max-width: 100%;
     margin: 0 auto;
     font-family: Roboto Slab, Helvetica, sans-serif;
 }
@@ -231,5 +231,132 @@ h4 {
 
     footer {
         margin-top: 25px;
+    }
+}
+
+
+
+/* about */
+
+
+.experiences {
+    padding: 0px 50px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.experiences-text {
+    width: 60%;
+}
+
+
+.experiences-text h2 {
+    font-family: Lemonada, Helvetica, sans-serif;
+}
+
+
+
+.experiences-img {
+    width: 40%;
+}
+
+.second-text {
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .experiences {
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+
+    .experiences-text {
+        width: 100%;
+    }
+
+    .experiences-img {
+        width: 100%
+    }
+}
+
+
+
+/* contact */
+
+#contact-img {
+    width: 100%;
+    object-fit: none;
+    object-position: center;
+    height: 350px;
+}
+
+#contact-title {
+    text-align: center;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-container {
+    width: 500px;
+}
+
+.contact-button {
+    margin-top: 40px;
+}
+
+.contact-button button {
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+    background: #5464A3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.contact-two-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-two-container div {
+    width: 45%;
+}
+
+.contact-input {
+    width: 100%;
+    padding: 4px 0px;
+    border-color: #ccc;
+    border-radius: 4px;
+}
+
+.contact-text {
+    font-family: Roboto Slab, Helvetica, sans-serif;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .contact-two-container {
+        flex-direction: column;
+    }
+
+
+.contact-two-container div {
+    width: 100%;
+}
+
+    .contact-container {
+        width: 90%;
     }
 }
