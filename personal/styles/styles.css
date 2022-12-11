@@ -296,6 +296,7 @@ h4 {
 
 #contact-title {
     text-align: center;
+    color: #688BF5;
 }
 
 #contact {
@@ -303,6 +304,7 @@ h4 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: #F7F8FF;
 }
 
 .contact-container {
