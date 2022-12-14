@@ -238,6 +238,13 @@ h4 {
 
 /* about */
 
+#content-about {
+    max-width: 100%;
+    margin: 0 auto;
+    background: #E6F4F1;
+    font-family: Roboto Slab, Helvetica, sans-serif;
+}
+
 
 .experiences {
     padding: 0px 50px;
